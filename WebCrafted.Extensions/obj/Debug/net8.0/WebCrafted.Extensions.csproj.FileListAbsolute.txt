@@ -1,0 +1,11 @@
+C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Extensions\bin\Debug\net8.0\WebCrafted.Extensions.deps.json
+C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Extensions\bin\Debug\net8.0\WebCrafted.Extensions.dll
+C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Extensions\bin\Debug\net8.0\WebCrafted.Extensions.pdb
+C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Extensions\obj\Debug\net8.0\WebCrafted.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Extensions\obj\Debug\net8.0\WebCrafted.Extensions.AssemblyInfoInputs.cache
+C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Extensions\obj\Debug\net8.0\WebCrafted.Extensions.AssemblyInfo.cs
+C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Extensions\obj\Debug\net8.0\WebCrafted.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Extensions\obj\Debug\net8.0\WebCrafted.Extensions.dll
+C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Extensions\obj\Debug\net8.0\refint\WebCrafted.Extensions.dll
+C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Extensions\obj\Debug\net8.0\WebCrafted.Extensions.pdb
+C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Extensions\obj\Debug\net8.0\ref\WebCrafted.Extensions.dll
