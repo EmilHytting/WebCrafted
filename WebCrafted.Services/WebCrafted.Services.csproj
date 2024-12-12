@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebCrafted.Data\WebCrafted.Data.csproj" />
+    <ProjectReference Include="..\WebCrafted.Extensions\WebCrafted.Extensions.csproj" />
+  </ItemGroup>
+
 </Project>

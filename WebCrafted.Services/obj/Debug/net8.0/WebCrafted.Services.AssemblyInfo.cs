@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebCrafted.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf057311d381a5e18d3088fde5b9d4e33bb0950b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebCrafted.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebCrafted.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

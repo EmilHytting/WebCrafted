@@ -1,0 +1,50 @@
+﻿@{
+    Layout = null;
+}
+<link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/RegisterStyle.css" rel="stylesheet">
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card shadow-lg" style="width: 100%; max-width: 400px;">
+        <div class="card-body">
+            <h3 class="card-title text-center mb-4">WebCrafted - Opret Konto</h3>
+
+            @if (ViewData["ErrorMessage"] != null)
+            {
+            <div class="alert alert-danger">@ViewData["ErrorMessage"]</div>
+            }
+
+            <form method="post" asp-action="Register">
+                <!-- First Name Input -->
+                <div class="form-group">
+                    <label for="FirstName">Fornavn</label>
+                    <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="Fornavn" required />
+                </div>
+
+                <!-- Last Name Input -->
+                <div class="form-group">
+                    <label for="LastName">Efternavn</label>
+                    <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Efternavn" required />
+                </div>
+
+                <!-- Email Input -->
+                <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <input type="email" class="form-control" id="Email" name="Email" placeholder="Enter email" required />
+                </div>
+
+                <!-- Password Input -->
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input type="password" class="form-control" id="Password" name="Password" placeholder="Password" required />
+                </div>
+
+                <!-- Register Button -->
+                <button type="submit" class="btn btn-primary btn-block mt-4">Opret Konto</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

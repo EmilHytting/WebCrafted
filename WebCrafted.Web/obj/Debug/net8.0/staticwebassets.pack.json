@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\WebCrafted.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\emilm\\RiderProjects\\WebCrafted\\WebCrafted.Web\\wwwroot\\css\\LoginStyle.css",
+      "PackagePath": "staticwebassets\\css\\LoginStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\emilm\\RiderProjects\\WebCrafted\\WebCrafted.Web\\wwwroot\\css\\RegisterStyle.css",
+      "PackagePath": "staticwebassets\\css\\RegisterStyle.css"
+    },
+    {
       "Id": "C:\\Users\\emilm\\RiderProjects\\WebCrafted\\WebCrafted.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,0 +1,50 @@
+﻿@{
+    Layout = null;
+}
+<link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/LoginStyle.css" rel="stylesheet">
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card shadow-lg" style="width: 100%; max-width: 400px;">
+        <div class="card-body">
+            <h3 class="card-title text-center mb-4">WebCrafted Login</h3>
+
+            @if (ViewData["ErrorMessage"] != null)
+            {
+            <div class="alert alert-danger">@ViewData["ErrorMessage"]</div>
+            }
+
+            <form method="post" asp-action="Login">
+                <!-- Email Input -->
+                <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <input type="email" class="form-control" id="Email" name="Email" placeholder="Enter email" required />
+                </div>
+
+                <!-- Password Input -->
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input type="password" class="form-control" id="Password" name="Password" placeholder="Password" required />
+                </div>
+
+                <!-- Remember Me Checkbox -->
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="RememberMe" name="RememberMe" />
+                    <label class="form-check-label" for="RememberMe">Husk mig</label>
+                </div>
+
+                <!-- Login Button -->
+                <button type="submit" class="btn btn-primary btn-block mt-4">Login</button>
+            </form>
+
+            <div class="text-center mt-3">
+                <a href="#">Glemt kodeord?</a>
+                <br />
+                <a href="@Url.Action("Register", "Account")" class="btn btn-secondary mt-3">Opret Konto</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

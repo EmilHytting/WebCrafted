@@ -1,0 +1,123 @@
+﻿/* Generel styling for kroppen */
+body {
+    background-color: #f0f4f8; /* Lys blå baggrund */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling af container */
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling af kort */
+.card {
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Hvid baggrund */
+    padding: 25px 35px;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover-effekt på kort */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling af overskrift */
+.card-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #007bff; /* Primær blå farve */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling af fejlmeddelelser */
+.alert-danger {
+    font-size: 14px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styling af formular */
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555; /* Grå tekstfarve */
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Styling af inputfelter */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+/* Fokus på inputfelter */
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+/* Styling af knap */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/* Hover-effekt på knap */
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Styling af footer-tekst */
+.login-footer {
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsivt design */
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

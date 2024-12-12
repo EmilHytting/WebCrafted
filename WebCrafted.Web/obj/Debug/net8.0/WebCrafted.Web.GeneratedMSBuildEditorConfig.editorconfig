@@ -26,12 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\emilm\RiderProjects\WebCrafted\WebCrafted.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/emilm/RiderProjects/WebCrafted/WebCrafted.Web/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/emilm/RiderProjects/WebCrafted/WebCrafted.Web/Views/Account/RegisterView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlclZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emilm/RiderProjects/WebCrafted/WebCrafted.Web/Views/Home/HomeView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emilm/RiderProjects/WebCrafted/WebCrafted.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emilm/RiderProjects/WebCrafted/WebCrafted.Web/Views/Login/LoginView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5WaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emilm/RiderProjects/WebCrafted/WebCrafted.Web/Views/Shared/Error.cshtml]
